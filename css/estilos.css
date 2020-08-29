@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    padding: 20px;
 }
 
 header{
@@ -20,9 +21,20 @@ header figure img{
 
 .menu{
     font-size: 20px;
+    
 }
 
 .menu a{
     text-decoration: none;
     color: cornsilk;
+    padding: 10px;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+table td{
+    padding: 5px;
 }
