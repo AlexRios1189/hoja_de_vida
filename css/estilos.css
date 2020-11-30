@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    background-color: #68b0ab;
+    background-color: #f4f4f2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,10 +26,46 @@ header figure img{
 
 .menu a{
     text-decoration: none;
-    color: cornsilk;
+    color: black;
     padding: 10px;
 }
 
+.datos{
+    background-color: #f4f4f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+    margin: 10px 0px 10px 0px;
+    flex-wrap: wrap;
+    padding: 5px 0px 5px 1.5rem;
+   
+}
+
+.informacion{
+    background-color: #e8e8e8;
+    padding: 2%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px black;
+	margin: 0px 0px 1.8rem 0px;
+	flex-wrap: wrap;
+}
+
+.informacion h2{
+    text-align: center;
+}
+
+.informacion figure img{
+    display: block;
+    margin: auto;
+}
+
+
+.educacion{
+    background-color: #bbbfca;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    flex-wrap: wrap;
+    padding: 5px 0px 5px 1.5rem;
+}
 
 table{
     border-collapse: collapse;
@@ -38,3 +74,24 @@ table{
 table td{
     padding: 5px;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #495464;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    flex-wrap: wrap;
+    padding: 5px 0px 5px 1.5rem;
+}
+
+.footer-datos{
+    padding: 5px;
+}
+
+.footer-details{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
